@@ -1,0 +1,47 @@
+/* line 1, /Users/user/Desktop/ChihiroSugihara/style.scss */
+* {
+  padding: 0;
+  margin: 0; }
+
+/* line 11, /Users/user/Desktop/ChihiroSugihara/style.scss */
+body {
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 100; }
+
+/* line 18, /Users/user/Desktop/ChihiroSugihara/style.scss */
+#header {
+  width: 100%; }
+  /* line 21, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  #header .header-right img {
+    width: 50%;
+    float: right; }
+  /* line 26, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  #header .header-left {
+    width: 50%;
+    position: relative;
+    top: 20vh; }
+    /* line 31, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    #header .header-left h1 {
+      text-align: center;
+      font-size: 600%;
+      position: relative; }
+    /* line 37, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    #header .header-left p {
+      font-size: 150%;
+      text-align: center; }
+    /* line 42, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    #header .header-left p a {
+      text-decoration: none;
+      color: #535353;
+      border: 2px solid #535353;
+      padding: 5px 20px;
+      font-size: 80%;
+      position: relative;
+      top: 50px; }
+      /* line 50, /Users/user/Desktop/ChihiroSugihara/style.scss */
+      #header .header-left p a:hover {
+        border-color: #01a8ff; }
+
+/*# sourceMappingURL=style.css.map */

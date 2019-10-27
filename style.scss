@@ -1,0 +1,57 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+$accent-color:#01a8ff;
+$main-color:#e0e1ef;
+$base-color:#fff;
+$dark-color:#535353;
+
+body {
+	background-color: $base-color;
+	box-sizing: border-box;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 100;
+}
+
+#header {
+	width: 100%;
+
+	.header-right img {
+		width: 50%;
+		float: right;
+	}
+
+	.header-left {
+		width: 50%;
+		position: relative;
+		top: 20vh;
+
+		h1 {
+			text-align: center;
+			font-size: 600%;
+			position: relative;
+		}
+
+		p {
+			font-size: 150%;
+			text-align: center;
+		}
+
+		p a {
+			text-decoration: none;
+			color: $dark-color;
+			border: 2px solid $dark-color;
+			padding: 5px 20px;
+			font-size: 80%;
+			position: relative;
+			top: 50px;
+			&:hover {
+				border-color:$accent-color;
+			}
+		}
+
+	}
+
+}
