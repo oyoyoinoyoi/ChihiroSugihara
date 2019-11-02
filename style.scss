@@ -15,23 +15,34 @@ body {
 	font-weight: 100;
 }
 
+
 #header {
 	width: 100%;
 
-	.header-right img {
-		width: 50%;
+	.box {
+		height: 80vh;
+	}
+
+	.header-right {
 		float: right;
+		width: 50%;
+		text-align: center;
+
+		img {
+			margin: 10% 0px;
+			width: 40%;
+		}
 	}
 
 	.header-left {
 		width: 50%;
 		position: relative;
-		top: 20vh;
+		top: 10vh;
 
 		h1 {
+			color: $accent-color;
 			text-align: center;
-			font-size: 600%;
-			position: relative;
+			font-size: 8vw;
 		}
 
 		p {
@@ -47,11 +58,106 @@ body {
 			font-size: 80%;
 			position: relative;
 			top: 50px;
+
 			&:hover {
-				border-color:$accent-color;
+				border-color: $accent-color;
 			}
 		}
 
 	}
+}
 
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+
+#profile {
+	margin: 200px 0px;
+
+	ul {
+		padding: 100px;
+
+		li {
+			background-color: $main-color;
+			text-align: left;
+			display: block;
+			margin: 0 auto;
+			width: 60%;
+			font-size: 25px;
+		}
+	}
+}
+
+#work {
+	width: 80%;
+	background-color: $main-color;
+	margin: 0 auto;
+
+	h2 {
+		width: 10%;
+		border-left: 10px solid $accent-color;
+		margin-top: 100px;
+		font-size: 50px;
+
+	}
+
+	.music {
+		.xenon {
+			text-align: center;
+
+			p {
+				margin-left: 520px;
+			}
+		}
+	}
+
+	.photo {
+		margin: 0 auto;
+
+		p {
+			margin-left: 10px;
+		}
+
+		ul {
+			overflow: hidden;
+
+			li {
+				width: 26%;
+				margin: 3%;
+				float: left;
+				list-style: none;
+
+
+				img {
+					width: 100%;
+				}
+			}
+
+			li.yohaku {
+				p {
+					margin-bottom: 65%;
+				}
+
+			}
+		}
+	}
+
+	.web {
+		padding-bottom: 300px;
+		margin-bottom: 300px;
+
+		img {
+			width: 10%;
+		}
+	}
+
+}
+footer {
+	width: 100%;
+	margin: 0px auto;
+	padding: 1vh 0px;
+	text-align: center;
+	background-color: $accent-color;
+	color: #fff;
 }
