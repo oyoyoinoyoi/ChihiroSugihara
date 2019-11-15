@@ -11,8 +11,8 @@ $dark-color:#535353;
 body {
 	background-color: $base-color;
 	box-sizing: border-box;
-	font-family: 'Rajdhani', sans-serif;
-	font-weight: 100;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
 }
 
 
@@ -21,49 +21,21 @@ body {
 
 	.box {
 		height: 80vh;
-	}
-
-	.header-right {
-		float: right;
-		width: 50%;
-		text-align: center;
-
-		img {
-			margin: 10% 0px;
-			width: 40%;
-		}
-	}
-
-	.header-left {
 		width: 50%;
 		position: relative;
 		top: 10vh;
 
 		h1 {
 			color: $accent-color;
-			text-align: center;
-			font-size: 8vw;
+			text-align: left;
+			font-size: 200px;
 		}
-
-		p {
-			font-size: 150%;
-			text-align: center;
-		}
-
-		p a {
-			text-decoration: none;
+		i{
 			color: $dark-color;
-			border: 2px solid $dark-color;
-			padding: 5px 20px;
-			font-size: 80%;
-			position: relative;
-			top: 50px;
-
-			&:hover {
-				border-color: $accent-color;
+			&:hover{
+				color: $accent-color;
 			}
 		}
-
 	}
 }
 
@@ -73,7 +45,7 @@ h1 {
 }
 
 #profile {
-	margin: 200px 0px;
+	margin: 100px 0px;
 
 	ul {
 		padding: 100px;
@@ -153,6 +125,9 @@ h1 {
 	}
 
 }
+
+
+
 footer {
 	width: 100%;
 	margin: 0px auto;
@@ -160,4 +135,25 @@ footer {
 	text-align: center;
 	background-color: $accent-color;
 	color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+	#header {
+		.header-right img {
+			display: block;
+			position: relative;
+			top: 5px;
+		}
+
+		.header-left {
+			p {
+				font-size: 20%;
+			}
+
+			p a {
+				font-size: 20%;
+				padding: 5px 10px;
+			}
+		}
+	}
 }
