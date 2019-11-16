@@ -183,76 +183,112 @@ footer {
   background-color: #01a8ff;
   color: #fff; }
 
+@media screen and (max-width: 800px) {
+  /* line 250, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  #skill .skill-box .skill-size {
+    width: 100%;
+    margin-left: 0px; }
+    /* line 254, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    #skill .skill-box .skill-size h3 {
+      font-size: 50px;
+      margin: 10px 0px; }
+    /* line 259, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    #skill .skill-box .skill-size p2 {
+      font-size: 20px;
+      font-weight: 500; }
+    /* line 264, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    #skill .skill-box .skill-size p3 {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 50px; }
+  /* line 274, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  #intern h2 {
+    font-weight: 500;
+    font-size: 30px; }
+  /* line 279, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  #intern p {
+    font-weight: 500;
+    font-size: 18px; }
+  /* line 284, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  #work {
+    background-color: #fff; } }
+
 @media screen and (max-width: 500px) {
-  /* line 249, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 291, /Users/user/Desktop/ChihiroSugihara/style.scss */
   h1 {
     font-size: 40px;
     margin-bottom: 30px; }
-  /* line 254, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 296, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  #header .box p {
+    font-size: 230x; }
+  /* line 300, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #profile .contant {
     margin-bottom: 200px; }
-    /* line 259, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    /* line 305, /Users/user/Desktop/ChihiroSugihara/style.scss */
     #profile .contant ul li {
-      font-size: 5px;
+      font-size: 12px;
       line-height: 20px; }
-  /* line 266, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 312, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #work .music .xenon {
     position: relative;
     width: 100%;
     height: 0;
     padding-top: 75%; }
-    /* line 272, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    /* line 318, /Users/user/Desktop/ChihiroSugihara/style.scss */
     #work .music .xenon p {
       margin-left: 140px; }
-  /* line 277, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 323, /Users/user/Desktop/ChihiroSugihara/style.scss */
   .xenon iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%; }
-  /* line 285, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 331, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #work h2 {
     font-size: 30px; }
-  /* line 289, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 335, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #work h1 {
     margin-bottom: 0px; }
-  /* line 293, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 339, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #work p {
     font-weight: 500;
     font-size: 5px; }
-  /* line 301, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 347, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #skill .skill-box .skill-size {
     width: 100%;
     margin-left: 0px; }
-    /* line 305, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    /* line 351, /Users/user/Desktop/ChihiroSugihara/style.scss */
     #skill .skill-box .skill-size h3 {
-      font-size: 20px;
-      margin: 0; }
-    /* line 310, /Users/user/Desktop/ChihiroSugihara/style.scss */
+      font-size: 30px;
+      margin: 10px 0px; }
+    /* line 356, /Users/user/Desktop/ChihiroSugihara/style.scss */
     #skill .skill-box .skill-size p2 {
-      font-size: 2px;
+      font-size: 15px;
       font-weight: 500; }
-    /* line 315, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    /* line 361, /Users/user/Desktop/ChihiroSugihara/style.scss */
     #skill .skill-box .skill-size p3 {
-      font-size: 2px;
+      font-size: 15px;
       font-weight: 500;
       margin-bottom: 50px; }
-  /* line 324, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 370, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #skill-calender {
     margin: 150px 0px; }
-  /* line 329, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 375, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #intern h2 {
     font-weight: 500;
-    font-size: 3px; }
-  /* line 334, /Users/user/Desktop/ChihiroSugihara/style.scss */
+    font-size: 20px; }
+  /* line 380, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #intern p {
     font-weight: 500;
-    font-size: 3px;
+    font-size: 15px;
     margin-bottom: 150px; }
-  /* line 341, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  /* line 388, /Users/user/Desktop/ChihiroSugihara/style.scss */
   #work .web {
     margin-bottom: 0px;
-    padding-bottom: 50px; } }
+    padding-bottom: 50px; }
+  /* line 393, /Users/user/Desktop/ChihiroSugihara/style.scss */
+  #work .photo ul li {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

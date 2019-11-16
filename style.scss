@@ -244,11 +244,57 @@ footer {
 	color: #fff;
 }
 
+@media screen and (max-width: 800px) {
+	#skill {
+		.skill-box {
+			.skill-size {
+				width: 100%;
+				margin-left: 0px;
+
+				h3 {
+					font-size: 50px;
+					margin: 10px 0px;
+				}
+
+				p2 {
+					font-size: 20px;
+					font-weight: 500;
+				}
+
+				p3 {
+					font-size: 20px;
+					font-weight: 500;
+					margin-bottom: 50px;
+				}
+			}
+		}
+	}
+
+	#intern {
+		h2 {
+			font-weight: 500;
+			font-size: 30px;
+		}
+
+		p {
+			font-weight: 500;
+			font-size: 18px;
+		}
+	}
+	#work{
+		background-color: #fff;
+	}
+}
+
 @media screen and (max-width: 500px) {
 
 	h1 {
 		font-size: 40px;
 		margin-bottom: 30px;
+	}
+
+	#header .box p {
+		font-size: 230x;
 	}
 
 	#profile .contant {
@@ -257,7 +303,7 @@ footer {
 		ul {
 
 			li {
-				font-size: 5px;
+				font-size: 12px;
 				line-height: 20px;
 			}
 		}
@@ -303,17 +349,17 @@ footer {
 				margin-left: 0px;
 
 				h3 {
-					font-size: 20px;
-					margin: 0;
+					font-size: 30px;
+					margin: 10px 0px;
 				}
 
 				p2 {
-					font-size: 2px;
+					font-size: 15px;
 					font-weight: 500;
 				}
 
 				p3 {
-					font-size: 2px;
+					font-size: 15px;
 					font-weight: 500;
 					margin-bottom: 50px;
 				}
@@ -328,19 +374,24 @@ footer {
 	#intern {
 		h2 {
 			font-weight: 500;
-			font-size: 3px;
+			font-size: 20px;
 		}
 
 		p {
 			font-weight: 500;
-			font-size: 3px;
+			font-size: 15px;
 			margin-bottom: 150px;
 		}
 	}
-	#work{
-		.web{
+
+	#work {
+		.web {
 			margin-bottom: 0px;
 			padding-bottom: 50px;
+		}
+
+		.photo ul li {
+			font-size: 15px;
 		}
 	}
 }
