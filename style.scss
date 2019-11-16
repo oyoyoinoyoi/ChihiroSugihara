@@ -1,6 +1,10 @@
-* {
+*:before,
+*:after {
+	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	white-space: nowrap;
+	font-variant-ligatures: none;
 }
 
 $accent-color:#01a8ff;
@@ -32,7 +36,6 @@ i {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		padding: 100px 0;
 
 		h1 {
 			color: $dark-color;
@@ -54,9 +57,11 @@ h1 {
 	font-size: 80px;
 	text-align: center;
 	color: $dark-color;
+	margin-bottom: 100px;
 }
 
 #profile {
+	margin: 100px 0 200px 0;
 
 	.contant {
 		display: flex;
@@ -72,9 +77,11 @@ h1 {
 				font-size: 25px;
 				font-weight: 500;
 				line-height: 50px;
-				i{
+
+				i {
 					margin: 0px 0px;
 				}
+
 				//				img {
 				//					float: left;
 				//					margin: 100px 50px;
@@ -92,6 +99,63 @@ h1 {
 	}
 }
 
+#skill {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+
+	.skill-box {
+		text-align: center;
+		width: 100%;
+		color: $dark-color;
+
+		.skill-size {
+			margin-left: 50px;
+			text-align: center;
+			vertical-align: top;
+			width: 25%;
+			//background-color: red;
+			display: inline-block;
+		}
+
+		h3 {
+			font-size: 50px;
+		}
+
+		p3 {
+			display: block;
+		}
+
+	}
+}
+
+#skill-calender {
+	margin: 300px 0px;
+	text-align: center;
+
+	img {
+		width: 70%;
+
+	}
+
+}
+
+#intern {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+
+	h2 {
+		color: $dark-color;
+	}
+
+	p {
+		color: $dark-color;
+		margin-bottom: 300px;
+	}
+}
+
 #work {
 	width: 80%;
 	background-color: $main-color;
@@ -102,6 +166,7 @@ h1 {
 		border-left: 10px solid $accent-color;
 		margin-top: 100px;
 		font-size: 50px;
+		color: $dark-color;
 
 	}
 
@@ -157,7 +222,18 @@ h1 {
 
 }
 
+.up {
+	text-align: center;
 
+	i {
+		color: $dark-color;
+		transition: 1s;
+
+		&:hover {
+			color: $accent-color;
+		}
+	}
+}
 
 footer {
 	width: 100%;
@@ -169,22 +245,102 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-	#header {
-		.header-right img {
-			display: block;
-			position: relative;
-			top: 5px;
+
+	h1 {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+
+	#profile .contant {
+		margin-bottom: 200px;
+
+		ul {
+
+			li {
+				font-size: 5px;
+				line-height: 20px;
+			}
+		}
+	}
+
+	#work .music .xenon {
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding-top: 75%;
+
+		p {
+			margin-left: 140px;
+		}
+	}
+
+	.xenon iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	#work h2 {
+		font-size: 30px;
+	}
+
+	#work h1 {
+		margin-bottom: 0px;
+	}
+
+	#work p {
+		font-weight: 500;
+		font-size: 5px;
+	}
+
+	#skill {
+		.skill-box {
+
+			.skill-size {
+				width: 100%;
+				margin-left: 0px;
+
+				h3 {
+					font-size: 20px;
+					margin: 0;
+				}
+
+				p2 {
+					font-size: 2px;
+					font-weight: 500;
+				}
+
+				p3 {
+					font-size: 2px;
+					font-weight: 500;
+					margin-bottom: 50px;
+				}
+			}
+		}
+	}
+
+	#skill-calender {
+		margin: 150px 0px;
+	}
+
+	#intern {
+		h2 {
+			font-weight: 500;
+			font-size: 3px;
 		}
 
-		.header-left {
-			p {
-				font-size: 20%;
-			}
-
-			p a {
-				font-size: 20%;
-				padding: 5px 10px;
-			}
+		p {
+			font-weight: 500;
+			font-size: 3px;
+			margin-bottom: 150px;
+		}
+	}
+	#work{
+		.web{
+			margin-bottom: 0px;
+			padding-bottom: 50px;
 		}
 	}
 }
