@@ -15,49 +15,80 @@ body {
 	font-weight: 700;
 }
 
+i {
+	color: $dark-color;
+	margin: 100px 0;
+
+	&:hover {
+		color: $accent-color;
+	}
+}
 
 #header {
 	width: 100%;
 
 	.box {
-		height: 80vh;
-		width: 50%;
-		position: relative;
-		top: 10vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding: 100px 0;
 
 		h1 {
-			color: $accent-color;
-			text-align: left;
-			font-size: 200px;
-		}
-		i{
 			color: $dark-color;
-			&:hover{
-				color: $accent-color;
-			}
+			text-align: left;
+			font-size: 10vw;
 		}
+
+		p {
+			display: block;
+			font-weight: 300;
+			font-size: 3vw;
+
+		}
+
 	}
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 80px;
 	text-align: center;
+	color: $dark-color;
 }
 
 #profile {
-	margin: 100px 0px;
 
-	ul {
-		padding: 100px;
+	.contant {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
 
-		li {
-			background-color: $main-color;
-			text-align: left;
-			display: block;
-			margin: 0 auto;
-			width: 60%;
-			font-size: 25px;
+		ul {
+			li {
+				text-align: left;
+				display: block;
+				margin: 0 auto;
+				font-size: 25px;
+				font-weight: 500;
+				line-height: 50px;
+				i{
+					margin: 0px 0px;
+				}
+				//				img {
+				//					float: left;
+				//					margin: 100px 50px;
+				//					border-radius: 50%;
+				//					/* 角丸半径を50%にする(=円形にする) */
+				//					width: 230px;
+				//					/* ※縦横を同値に */
+				//					height: 230px;
+				//					/* ※縦横を同値に */
+				//				}
+			}
 		}
+
+
 	}
 }
 
